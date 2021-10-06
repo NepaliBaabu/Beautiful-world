@@ -43,22 +43,6 @@ To add multiple images for multiple projects, create project directory inside `s
 
 Anything missing on PR based on what described above will not be accepted.
 
-### `src/content/<your-project-file>.mdx`
-
-Inside the mdx file you have created, it is compulsory to include the information listed below with the proper structure:
-
-```mdx
----
-title: Your Project Name
-excerpt: Short Description About Your Project
-tags: Name of your beautiful programming language // or any that you used to build your projects. Use comma to separate
-projectLink: <link-to-your-project> // live or GitHub repo
----
-```
-
-Above content in-between `---` are necessary. Please don't forget to wrap them with `---` 3 hypens before & after the content. It will be used for **frontmatter**.
-
-Don't forget to add your image.
 
 **Note:** Try to add more information about your project after the content mentioned above. It can be any information regarding your project or demo video, screenshots, how to setup, references etc.
 
